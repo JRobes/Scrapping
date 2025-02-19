@@ -12,6 +12,7 @@ public class App
 
         //ScrappingAltIndex.getSentimentTicker("nvda");
         //algo para borrar
+
         int numSamples = 10;
         int numFeatures = 3;
         int sequenceLength = 6;
