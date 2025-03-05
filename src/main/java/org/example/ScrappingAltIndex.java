@@ -17,7 +17,7 @@ public class ScrappingAltIndex {
     private static final String regex = "\\[(\\d+),\\s*(\\d+)\\]";
 
 
-    public static void getSentimentTicker(String ticker){
+    public void getSentimentTicker(String ticker){
         String url = baseUrl + ticker + "/sentiment";
         try {
             // Conectar y obtener el documento HTML de la página
